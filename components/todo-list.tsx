@@ -41,7 +41,7 @@ export function TodoList() {
 
       <TodoSearch value={query} onChange={setQuery} />
 
-      <div className="flex flex-wrap items-center justify-between gap-2">
+      <div className="flex flex-col items-start gap-2">
         <TodoFilter value={filter} onChange={setFilter} />
         <TodoSort value={sortBy} onChange={setSortBy} />
       </div>
